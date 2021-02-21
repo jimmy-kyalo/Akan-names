@@ -76,19 +76,19 @@ const getGender = () => {
             );
           }
     }
-    else if(female.checked){
+    else if (female.checked){
         if (dayValue == 1) {
             alert(
               "You were born on " +
-                dayNames[0] +
-                " and Your akan name is  " +
+                days[0] +
+                " and Your akan name is " +
                 femaleNames[0] +
                 "!"
             );
           } else if (dayValue == 2) {
             alert(
               "You were born on " +
-                dayNames[1] +
+                days[1] +
                 " and Your akan name is " +
                 femaleNames[1] +
                 "!"
@@ -96,7 +96,7 @@ const getGender = () => {
           } else if (dayValue == 3) {
             alert(
               "You were born on " +
-                dayNames[2] +
+                days[2] +
                 " and Your akan name is " +
                 femaleNames[2] +
                 "!"
@@ -128,15 +128,13 @@ const getGender = () => {
           } else if (dayValue == -0) {
             alert(
               "You were born on " +
-                days[6] +
+                dayNames[6] +
                 " and Your akan name is " +
                 femaleNames[6] +
                 "!"
             );
           }
-    } else {
-        return false;
-    }    
+    }     
 }
 
 const getName = () => {

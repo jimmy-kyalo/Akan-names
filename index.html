@@ -30,20 +30,22 @@
     </ul>
     <h2>Enter your BirthDay Details</h2>
     <form name="form" class="form">
-        <label  id="name" >Year of Birth</label>
+        <label  id="name" for="">Year of Birth</label>
         <input type="number" class="form-control" id="year" placeholder="eg 1990" name="year">
-        <label id="month" >Month of Birth</label>
+        <label id="email" for="">Month of Birth</label>
         <input type="number" class="form-control" id="month" placeholder="e.g 7 for July" name="month">
-        <label id="day" >Day of Birth</label>
+        <label id="number" for="">Day of Birth</label>
         <input type="number" class="form-control" id="date" placeholder="21" name="date">
         <br>
         <label for="month">Gender</label>
         <br>
         <label class="label">
-        <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male </label>
+        <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+        </label>
         <br>
         <label class="label">
-        <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female </label>
+        <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
+        </label>
         <br>
         <br>
         <button id="button" onclick="getName()">Get Name</button>

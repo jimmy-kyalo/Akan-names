@@ -104,7 +104,7 @@ const getGender = () => {
           } else if (dayValue == 4) {
             alert(
               "You were born on " +
-                dayNames[3] +
+                days[3] +
                 " and Your akan name is " +
                 femaleNames[3] +
                 "!"
@@ -112,7 +112,7 @@ const getGender = () => {
           } else if (dayValue == 5) {
             alert(
               "You were born on " +
-                dayNames[4] +
+                days[4] +
                 " and Your akan name is " +
                 femaleNames[4] +
                 "!"
@@ -120,7 +120,7 @@ const getGender = () => {
           } else if (dayValue == 6) {
             alert(
               "You were born on " +
-                dayNames[5] +
+                days[5] +
                 " and Your akan name is " +
                 femaleNames[5] +
                 "!"
@@ -128,7 +128,7 @@ const getGender = () => {
           } else if (dayValue == -0) {
             alert(
               "You were born on " +
-                dayNames[6] +
+                days[6] +
                 " and Your akan name is " +
                 femaleNames[6] +
                 "!"

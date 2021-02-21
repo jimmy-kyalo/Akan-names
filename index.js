@@ -9,9 +9,9 @@ const calculateDay = () => {
     const YY = parseInt(year.substring(2, 4));
     const MM = parseInt(document.getElementById("month").value);
     const DD = parseInt(document.getElementById("date").value);
-    const d = (CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7;
+    const d = Math.floor((CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7);
     // console.log(d);
-    return Math.floor(d);
+    return d;
 };
 
 const getGender = () => {
